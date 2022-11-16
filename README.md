@@ -59,6 +59,19 @@ ng serve --project=second-app
 ng serve second-app
 ```
 
+## Test the workspaces changes
+
+```js
+// simply change inside: `/second-app/app/app.component.html`
+// instead of
+<h2>Resources</h2>
+
+// do
+<h2>Resources Test second workspace (and not first)</h2>
+```
+
+<a href="https://ibb.co/HH18spL"><img src="https://i.ibb.co/HH18spL/test-Workspace-Second.jpg" alt="test-Workspace-Second" border="1"></a>
+
 ## To build your application for production
 
 ```js
