@@ -1,6 +1,71 @@
-# AngularWorkspace
+# Angular Workspaces
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+
+> A workspace is a set of Angular applications and libraries. The angular.json file at the root level of an Angular workspace provides workspace-wide and project-specific (application or library) configuration defaults for build and development tools.
+
+## Creating a workspace
+
+The `--createApplication=false` parameter avoids the creation of an initial application (default value is true).
+
+```js
+// create a workspace
+ng new angularWorkspace --create-application=false --directory=angularWorkspace --interactive=false
+```
+
+![workspace](https://ibb.co/Snn7PC9)
+
+```js
+// Creating an application in a workspace
+cd angularWorkspace
+ng generate application first-app  --style=scss --routing=true
+ng generate application second-app  --style=scss --routing=true
+```
+
+Now, on the root `angular.json` we will have:
+
+```js
+{
+  ...
+  "projects": {
+    "first-app": { ... },
+    "second-app": { ... },
+  }
+  ...
+} 
+```
+
+## Create a Shared Service
+
+> The syntax is ng generate service `service-name` and the parameter `--project` is mandatory to specify the library where to generate the service.
+
+```js
+ng generate service services/test-service --project=first-app
+```
+
+## Create a Shared 3rd party service
+
+```js
+ng add @angular/material --project=first-app
+```
+
+## Finally, run workspace
+
+```js
+ng serve --project=first-app
+ng serve first-app
+
+ng serve --project=second-app
+ng serve second-app
+```
+
+## To build your application for production
+
+```js
+ng build --prod --project=first-app
+```
+
+---
 
 ## Development server
 
