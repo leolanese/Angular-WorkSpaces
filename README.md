@@ -13,7 +13,7 @@ The `--createApplication=false` parameter avoids the creation of an initial appl
 ng new angularWorkspace --create-application=false --directory=angularWorkspace --interactive=false
 ```
 
-![workspace](https://ibb.co/Snn7PC9)
+<a href="https://ibb.co/Snn7PC9"><img src="https://i.ibb.co/Snn7PC9/angular-workspace.jpg" alt="angular-workspace" border="0"></a>
 
 ```js
 // Creating an application in a workspace
