@@ -4,6 +4,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 > A workspace is a set of Angular applications and libraries. The angular.json file at the root level of an Angular workspace provides workspace-wide and project-specific (application or library) configuration defaults for build and development tools.
 
+#### Further information
+
+> Angular also supports workspaces with multiple projects. This type of development environment is suitable for advanced users who are developing shareable libraries, and for enterprises that use a "monorepo" development style, with a single repository and global configuration for all Angular projects - <https://angular.io/guide/file-structure>
+
+---
+
 ## Creating a workspace
 
 The `--createApplication=false` parameter avoids the creation of an initial application (default value is true).
