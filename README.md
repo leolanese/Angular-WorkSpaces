@@ -1,4 +1,4 @@
-# Angular Workspaces
+# Angular Workspaces (WS)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
 
@@ -113,10 +113,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ---
 ### :100: <i>Thanks!</i>
 #### Now, don't be an stranger. Let's stay in touch!
-
-<a href="https://www.linkedin.com/in/leolanese/"> 
-  <img src="https://github-business-card.vercel.app/api/github?username=leolanese" alt="leolanese's linkedin" width="75%" />
-</a>
 
 ##### :radio_button: linkedin: <a href="https://www.linkedin.com/in/leolanese/" target="_blank">@LeoLanese</a>
 ##### :radio_button: Twitter: <a href="https://twitter.com/LeoLanese" target="_blank">@LeoLanese</a>
